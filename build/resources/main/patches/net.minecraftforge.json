@@ -1,0 +1,28 @@
+{
+  "formatVersion": 1,
+  "mainClass": "io.github.zekerzhayard.forgewrapper.installer.Main",
+  "minecraftArguments": "",
+  "name": "Forge",
+  "requires": [
+    {
+      "equals": "{VERSION}",
+      "uid": "net.minecraft"
+    }
+  ],
+  "type": "release",
+  "uid": "net.minecraftforge",
+  "version": "{FORGE_VERSION}",
+  "mavenFiles": [
+    {
+      "name": "net.minecraftforge:forge:{VERSION}-{FORGE_VERSION}:installer",
+      "url": "https://files.minecraftforge.net/maven/"
+    }
+  ],
+  "libraries": [
+    {
+      "name": "io.github.zekerzhayard:ForgeWrapper:1.4.2",
+      "MMC-hint": "local",
+      "MMC-filename": "ForgeWrapper-1.4.2.jar"
+    }
+  ]
+}
